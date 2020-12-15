@@ -1,0 +1,54 @@
+  .heading
+  {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div
+  {
+    padding: 10px;
+    float: none;
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div2
+  {
+    font-size: 18px;
+  }
+  .result_para_tag
+  {
+    white-space: pre-line;
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+  .copy_right_footer
+ {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    line-height: 3;
+    text-align: right;
+    font-size: 18px;
+ }
+ canvas
+ {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: canvas_animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 350px;
+ }
+ body
+ {
+  font-family: 'Langar', cursive;
+ }
+ @keyframes canvas_animation{
+   from{box-shadow: 15px 15px 15px skyblue;}
+   to{box-shadow: 15px 15px 15px lightgreen;}
+ }
